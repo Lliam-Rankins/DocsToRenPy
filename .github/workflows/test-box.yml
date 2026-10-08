@@ -6,6 +6,8 @@ on:
   pull_request:
     branches: [master]
     types: ["opened", "reopened", "synchronize"]
+  # Temp for testing functionality
+  workflow_dispatch:
 
 jobs:
   Call-Test-Box:

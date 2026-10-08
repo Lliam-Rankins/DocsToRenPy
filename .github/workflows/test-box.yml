@@ -1,0 +1,12 @@
+name: Test-Box
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+    branches: [master]
+    types: ["opened", "reopened", "synchronize"]
+
+jobs:
+  Call-Test-Box:
+    uses: Lliam-Rankins/test-box/.github/workflows/central-test.yml@master

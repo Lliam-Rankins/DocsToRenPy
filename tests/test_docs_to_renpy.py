@@ -17,6 +17,9 @@ def mock_file(monkeypatch):
     monkeypatch.setattr(docs_to_renpy, "menu_ref_character", None)
     return buffer
 
+# --- Passing Test ---
+def test_passing():
+    assert 1 == 1
 
 # --- Helper Functions Tests ---
 

@@ -2,9 +2,9 @@ name: Test-Box
 
 on:
   push:
-    branches: [master]
+    branches: [master, main]
   pull_request:
-    branches: [master]
+    branches: [master, main]
     types: ["opened", "reopened", "synchronize"]
   # Temp for testing functionality
   workflow_dispatch:
